@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Irish dictionary (i.e. word list) for aspell.
 
 %description -l pl
-S³ownik irlandzki (lista s³ów) dla aspella.
+S³ownik (lista s³ów) irlandzki dla aspella.
 
 %prep
 %setup -q -n aspell5-ga-%{version}-%{subv}
