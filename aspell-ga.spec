@@ -1,27 +1,27 @@
 Summary:	Irish dictionary for aspell
-Summary(pl):	Irlandzki s這wnik dla aspella
+Summary(pl):	S這wnik irlandzki dla aspella
 Name:		aspell-ga
-Version:	0.50.1
+Version:	3.5
 %define	subv	0
-Release:	2
+Release:	1
 Epoch:		1
-License:	GPL
+License:	GPL v2+
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/ga/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	365dba3ccb0e5a93669c7618d627f5de
+Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/ga/aspell5-ga-%{version}-%{subv}.tar.bz2
+# Source0-md5:	f2a30f73ba05aa357abaafb2914d5953
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell >= 0.50.0
-Requires:	aspell >= 0.50.0
+BuildRequires:	aspell >= 2:0.50.0
+Requires:	aspell >= 2:0.50.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Irish dictionary (i.e. word list) for aspell.
 
 %description -l pl
-Irlandzki s這wnik (lista s堯w) dla aspella.
+S這wnik irlandzki (lista s堯w) dla aspella.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subv}
+%setup -q -n aspell5-ga-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
@@ -40,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Copyright README
+%doc Copyright README doc/ChangeLog
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
