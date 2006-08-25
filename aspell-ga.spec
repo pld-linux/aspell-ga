@@ -1,14 +1,14 @@
 Summary:	Irish dictionary for aspell
 Summary(pl):	S³ownik irlandzki dla aspella
 Name:		aspell-ga
-Version:	3.6
+Version:	4.1
 %define	subv	0
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/ga/aspell5-ga-%{version}-%{subv}.tar.bz2
-# Source0-md5:	69b1e0c06f039340302336506080efde
+# Source0-md5:	e5f4e3a1925f7cdc7f2f65a8ab990c94
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
 Requires:	aspell >= 2:0.50.0
