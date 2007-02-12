@@ -1,5 +1,5 @@
 Summary:	Irish dictionary for aspell
-Summary(pl):	S≥ownik irlandzki dla aspella
+Summary(pl.UTF-8):   S≈Çownik irlandzki dla aspella
 Name:		aspell-ga
 Version:	4.1
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Irish dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik irlandzki (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik irlandzki (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell5-ga-%{version}-%{subv}
