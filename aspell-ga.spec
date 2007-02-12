@@ -1,5 +1,5 @@
 Summary:	Irish dictionary for aspell
-Summary(pl.UTF-8):   Słownik irlandzki dla aspella
+Summary(pl.UTF-8):	Słownik irlandzki dla aspella
 Name:		aspell-ga
 Version:	4.1
 %define	subv	0
