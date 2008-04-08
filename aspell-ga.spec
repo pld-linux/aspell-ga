@@ -7,7 +7,7 @@ Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/ga/aspell5-ga-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/ga/aspell5-ga-%{version}-%{subv}.tar.bz2
 # Source0-md5:	eaa0f6b6073ab79a265adb4dc33fd252
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
