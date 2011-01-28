@@ -11,6 +11,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/ga/aspell5-ga-%{version}-%{subv}.tar
 # Source0-md5:	174385bbc0b67ae75a5581c8617827b6
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
+BuildRequires:	which
 Requires:	aspell >= 2:0.50.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
