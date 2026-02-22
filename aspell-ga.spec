@@ -13,6 +13,7 @@ URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
 BuildRequires:	which
 Requires:	aspell >= 2:0.50.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,8 +43,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README doc/ChangeLog
-%{_libdir}/aspell/ga.*
-%{_libdir}/aspell/gaeilge.alias
-%{_libdir}/aspell/irish.alias
+%{_prefix}/lib/aspell/ga.*
+%{_prefix}/lib/aspell/gaeilge.alias
+%{_prefix}/lib/aspell/irish.alias
 %{_datadir}/aspell/ga.dat
 %{_datadir}/aspell/ga_phonet.dat
